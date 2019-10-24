@@ -1,0 +1,46 @@
+{
+  "name": "react-persist-hook",
+  "version": "1.0.0",
+  "description": "Hook for persisting and rehydrating state in React app",
+  "main": "build/index.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szlezak/react-persist-hook.git"
+  },
+  "keywords": [
+    "react",
+    "react-hook",
+    "persist"
+  ],
+  "author": {
+    "name": "Robert Szlezak",
+    "email": "robertszlezak@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Mark Polak",
+      "email": "mwd@outlook.sk"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szlezak/react-persist-hook/issues"
+  },
+  "homepage": "https://github.com/szlezak/react-persist-hook#readme",
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/react": "^16.9.9",
+    "lodash.debounce": "^4.0.8",
+    "react": "^16.11.0"
+  }
+}
