@@ -1,13 +1,13 @@
 {
   "name": "react-persist-hook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hook for persisting and rehydrating state in React app",
-  "main": "index.ts",
+  "main": "index.js",
   "files": [
     "build"
   ],
   "scripts": {
-    "build": "rm index.js && rm index.d.ts && tsc && echo 'Finished building NPM package'",
+    "build": "tsc && echo 'Finished building NPM package'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
