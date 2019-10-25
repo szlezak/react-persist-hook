@@ -1,13 +1,13 @@
 {
   "name": "react-persist-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hook for persisting and rehydrating state in React app",
-  "main": "build/index.ts",
+  "main": "index.ts",
   "files": [
     "build"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "rm index.js && rm index.d.ts && tsc && echo 'Finished building NPM package'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,13 +34,16 @@
     "url": "https://github.com/szlezak/react-persist-hook/issues"
   },
   "homepage": "https://github.com/szlezak/react-persist-hook#readme",
+  "peerDependencies": {
+    "react": "^16.0.0-0",
+    "react-dom": "^16.0.0-0"
+  },
   "devDependencies": {
-    "typescript": "^3.6.4"
+    "typescript": "^3.6.4",
+    "@types/react": "^16.9.9",
+    "@types/lodash.debounce": "^4.0.6"
   },
   "dependencies": {
-    "@types/lodash.debounce": "^4.0.6",
-    "@types/react": "^16.9.9",
-    "lodash.debounce": "^4.0.8",
-    "react": "^16.11.0"
+    "lodash.debounce": "^4.0.8"
   }
 }

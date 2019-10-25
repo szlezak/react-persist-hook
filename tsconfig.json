@@ -3,14 +3,13 @@
     "target": "es5",
     "module": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "outDir": "./build",
-    "isolatedModules": true,
+    "outDir": ".",
     "strict": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "declaration": true
   },
-  "exclude": ["node_modules", "build"]
+  "exclude": ["node_modules"]
 }

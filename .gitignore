@@ -2,7 +2,8 @@
 /node_modules
 
 # production
-/build
+index.js
+index.d.ts
 
 # misc
 .DS_Store
