@@ -4,9 +4,6 @@
   "description": "Hook for persisting and rehydrating state in React app",
   "main": "index.js",
   "types": "index.d.ts",
-  "files": [
-    "build"
-  ],
   "scripts": {
     "build": "tsc && echo 'Finished building NPM package'",
     "test": "echo \"Error: no test specified\" && exit 1"

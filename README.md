@@ -21,11 +21,11 @@ import usePersist from 'react-persist-hook'
 const Signin = () => {
   const [signinFormValues, setSigninFormValues] = usePersist('signin-form', 'localStorage', 400);
 
-  const { userName, password } = signinFormValues || {};
-  const initValues = { userName, password };
+  const { userName, email } = signinFormValues || {};
+  const initValues = { userName, email };
 
-  const handleSubmit = ({ userName, password }) => {
-    setSigninFormValues({ userName, password });
+  const handleSubmit = ({ userName, email }) => {
+    setSigninFormValues({ userName, email });
     // rest of the submit method
   }
 
