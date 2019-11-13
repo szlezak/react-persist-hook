@@ -13,7 +13,12 @@ const usePersist = (
   const [data, setData] = useState({});
 
   const persist = debounce(dataToStore => {
-    window[STORAGE_TYPE].setItem(key, JSON.stringify(dataToStore));
+    try {
+      window[STORAGE_TYPE].setItem(key, JSON.stringify(dataToStore));
+    }
+    catch {
+      console.warn(`WARNING: Currently the ${STORAGE_TYPE} is not available, the state is not persisted!`);
+    }
   }, DEBOUNCE_LIMIT);
 
   useEffect(() => {
