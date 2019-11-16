@@ -3,7 +3,6 @@
 
 # production
 index.js
-index.d.ts
 
 # misc
 .DS_Store

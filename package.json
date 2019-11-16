@@ -1,6 +1,6 @@
 {
   "name": "react-persist-hook",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Hook for persisting and rehydrating state in React app",
   "main": "index.js",
   "types": "index.d.ts",
